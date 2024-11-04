@@ -63,13 +63,13 @@ a {
 
 
 .hero{
-  padding: 135px;
+  padding: 135px 0;
 }
 
 .hero h1{
   text-align: center;
   font-family: "ADLaM Display";
-  font-size: 55px;
+  font-size: 60px;
   font-style: normal;
   line-height: normal;
   letter-spacing: 1.6px;
@@ -83,7 +83,7 @@ a {
   text-align: center;
   color: #000;
   font-family: "ADLaM Display";
-  font-size: 50px;
+  font-size: 60px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -135,6 +135,7 @@ a {
 }
 
 .random-img {
+  margin-top: -120px;
   width: 100%;
   overflow: hidden;
 }
@@ -143,4 +144,142 @@ a {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.about {
+  padding: 30px 0;
+}
+
+.about h1 {
+  text-align: center;
+  color: #383030;
+  font-family: "Space Grotesk";
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 170px; /* 170% */
+  letter-spacing: -5.1px;
+}
+
+.faqs {
+  padding: 1000px 0
+}
+
+.faqs .heading {
+  display: flex;
+  align-items: center;
+  /*gap: 50px;*/
+}
+
+.faqs .border1 {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  border: 4px solid #383030;
+  margin-left: 20px;
+}
+
+.faqs .line1 {
+  width: 1200px;
+  height: 5px;
+  background: #383030;
+}
+
+.faqs .border2 {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  border: 4px solid #383030;
+}
+
+.faqs .heading .title {
+  color: #383030;
+  font-family: Inter;
+  font-size: 79.811px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 114.4px; /* 108.118% */
+  letter-spacing: -3.3px;
+}
+
+.faqs .heading .subtitle {
+  color: #383030;
+  font-family: Inter;
+  font-size: 17.25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18.04px;
+  margin: 0;
+  flex-grow: 1;
+  text-align: right;
+}
+
+.faqs .question {
+  margin-top: -1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.faqs qbox {
+  cursor: pointer; /* Pointer cursor for clickable items */
+  border: 1px solid transparent;
+  /*padding: 32px 41.59px 32px 55px; Padding inside the qbox */
+  /*justify-content: flex-start;  Align items to the start
+  align-items: stretch;  Stretch items to take the full width
+  border-radius: 20px; Rounded corners
+  background: #F6F0E5;Background color 
+  color: #383030;
+  font-family: Inter;
+  font-size: 15.438px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18.04px;  149.504% */
+}
+
+.qbox[open] {
+  border: 1px solid #ccc; /* Change border when open */
+}
+
+summary {
+  padding: 32px 41.59px 32px 55px;
+  outline: none; /* Remove outline for summary */
+  font-weight: bold; /* Make the summary text bold */
+  display: flex; /* Make the summary behave like a flex container */
+  justify-content: space-between; /* Align items */
+  align-items: center; /* Center items vertically */
+  border-radius: 20px 20px 0 0; /* Rounded corners */
+  background: #F6F0E5; /* Background color */
+  color: #383030;
+  font-family: Inter;
+  font-size: 15.438px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18.04px; /* 149.504% */
+  
+}
+
+.answer {
+  padding: 1px 100px; /* Padding for the answer content */
+  margin: 0; /* Remove default margin */
+  /*margin-top: 10px;*/
+  font-weight:300; /* Make the summary text bold */
+  display: flex;
+  justify-content: space-between; /* Align items */
+  align-items: center; /* Center items vertically */
+  border-radius: 0 0 20px 20px;
+  background: #F6F0E5; /* Background color */
+  color: #080808;
+  font-family: Inter;
+  font-size: 12.438px;
+  font-style: normal;
+  line-height: 18.04px; /* 149.504% */
+}
+
+.faqs .footerline1 {
+  margin-top: -800px;
+  width: 101.2%;
+  height: 10px;
+  overflow: hidden;
+  background: #383030;
 }
