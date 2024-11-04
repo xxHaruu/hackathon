@@ -135,7 +135,12 @@ a {
 }
 
 .random-img {
-  width: 1425px;
-  height: 557.925px;
-  flex-shrink: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.random-img img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
