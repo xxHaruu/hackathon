@@ -68,7 +68,7 @@ a {
 
 .hero h1{
   text-align: center;
-  font-family: "ADLaM Display";
+  font-family: "Nunito";
   font-size: 60px;
   font-style: normal;
   line-height: normal;
@@ -82,7 +82,7 @@ a {
 .hero h2 {
   text-align: center;
   color: #000;
-  font-family: "ADLaM Display";
+  font-family: "Nunito";
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
@@ -162,7 +162,7 @@ a {
 }
 
 .faqs {
-  padding: 1000px 0
+  /*padding: 1000px 0;*/
 }
 
 .faqs .heading {
@@ -215,7 +215,7 @@ a {
 }
 
 .faqs .question {
-  margin-top: -1000px;
+  /*margin-top: -1000px;*/
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -271,15 +271,81 @@ summary {
   background: #F6F0E5; /* Background color */
   color: #080808;
   font-family: Inter;
-  font-size: 12.438px;
+  font-size: 14.438px;
   font-style: normal;
   line-height: 18.04px; /* 149.504% */
 }
 
 .faqs .footerline1 {
-  margin-top: -800px;
+  margin-top: 100px;
   width: 101.2%;
   height: 10px;
   overflow: hidden;
   background: #383030;
 }
+
+.footer {
+  padding: 100px;
+}
+
+.footer .main-content {
+  display: flex;
+}
+
+.footer .footq {
+  width: 50%;
+}
+
+.footer .randomsth {
+  position: relative;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footheading {
+  color: #383030;
+  font-family: Inter;
+  font-size: 61.163px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 67.2px; /* 87.771% */
+  letter-spacing: -2.4px;
+  margin-left: -100px;
+}
+
+.footer .subheading {
+  color: #383030;
+  font-family: Inter;
+  font-size: 20.648px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 121.423% */
+  margin-left: -100px;
+}
+
+.randomsth p {
+  padding: 20px;
+  color: #383030;
+  font-family: Inter;
+  font-size: 61.125px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px; /* 102.4% */
+  letter-spacing: -2.4px;
+  margin: 0; /* Remove default margin */
+  position: relative; /* To ensure proper stacking context */
+  z-index: 1; /* Ensure text is above the image */
+  margin-left: 150px; /* Adjust this to move text horizontally */
+  margin-top: 10px; /* Adjust this to move text vertically */
+}
+
+.footer .img {
+  position: absolute;
+  width: 600px; /* Adjust size as needed */
+  height: auto;
+  z-index: -1;
+  top: 10px
+}
+
